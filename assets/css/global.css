@@ -1,0 +1,33 @@
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    border-style: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    /* background-color: rgb(223, 223, 223); */
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.back-to-top > a{
+    border-radius: 50%;
+    transition: .3s;
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1.5rem;
+    z-index: 600;
+    color: #010101 !important;
+}
+.back-to-top > a > svg{
+    background-color: #010101;
+    border-radius: 60%;
+    border: none;
+}

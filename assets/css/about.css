@@ -1,0 +1,160 @@
+.abbrand {
+  height: 200px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/programming.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .5;
+}
+
+.abbrand h1 {
+  padding-top: 80px;
+}
+
+.abbrand p a {
+  color: #fff;
+}
+
+.abbrand p i {
+  font-size: 12px;
+}
+
+.content .abouttxts {
+  margin: 10px 5%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 60%;
+      grid-template-columns: 30% 60%;
+}
+
+.content .abouttxts .aboutimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.content .abouttxts .abouttexts {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.content .abouttxts .abouttexts span {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.content .abouttxts .abouttexts h2 {
+  font-family: sans-serif;
+}
+
+.content .abouttxts .abouttexts p {
+  color: #3e3e3e;
+}
+
+.content .abouttxts .abouttexts .abwriter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+}
+
+.content .abouttxts .abouttexts .abwriter img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  margin-top: -6px;
+}
+
+.content .abouttxts .abouttexts .abwriter .writerdetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.content .ourteam {
+  margin: 30px 5%;
+}
+
+.content .ourteam h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.content .ourteam .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.content .ourteam .team .member {
+  width: 250px;
+  background-color: #e4e4e4;
+  margin: 20px;
+  opacity: 0.85;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.content .ourteam .team .member img {
+  width: 100%;
+  height: 200px;
+}
+
+.content .ourteam .team .member .membersocials {
+  padding: 10px;
+  margin-top: -45px;
+}
+
+.content .ourteam .team .member .membersocials i {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  color: transparent;
+}
+
+.content .ourteam .team .member .membertexts {
+  padding: 10px;
+}
+
+.content .ourteam .team .member .membertexts h3 {
+  margin-bottom: 10px;
+}
+
+.content .ourteam .team .member:hover .membersocials i {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+.content .ourteam .team .member:hover .membersocials i:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: springgreen;
+}
+
+@media (max-width: 800px) {
+  .abouttxts {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0% 90% !important;
+        grid-template-columns: 0% 90% !important;
+  }
+  .abouttxts .aboutimg img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,132 @@
+.abbrand{
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/programming.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .5;
+    h1{
+        padding-top: 80px;
+    }
+    p{
+        a{
+            color: #fff;
+        }
+        i{
+            font-size: 12px;
+        }
+    }
+}
+.content{
+    .abouttxts{
+        margin: 10px 5%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 60%;
+        .aboutimg{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .abouttexts{
+            background-color: #fff;
+            padding: 15px;
+            span{
+                text-transform: uppercase;
+                font-size: 15px;
+            }
+            h2{
+                font-family: sans-serif;
+            }
+            p{
+                color: rgb(62, 62, 62);
+            }
+            .abwriter{
+                display: flex;
+                margin: 20px;                
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    margin: 5px;
+                    margin-top: -6px;
+                }
+                .writerdetails{
+                    display: flex;
+                    flex-direction: column !important;
+                }
+            }
+        }
+    }
+    .ourteam{
+        margin: 30px 5%;
+        h2{
+            color: #fff;
+            text-align: center;
+        }
+        .team{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            .member{
+                width: 250px;
+                background-color: rgb(228, 228, 228);
+                margin: 20px;
+                opacity: 0.85;
+                border-radius: 4px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 200px;
+                }
+                .membersocials{
+                    padding: 10px;
+                    margin-top: -45px;
+                    i{
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        font-size: 18px;
+                        color: transparent;
+                    }
+                }
+                .membertexts{
+                    padding: 10px;
+                    h3{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .member:hover{
+                .membersocials{
+                    i{
+                        transition: .3s;
+                        color: #fff;
+                    }
+                    i:hover{
+                        transition: .2s;
+                        color: springgreen;
+                    }
+                    // img{
+                    //     transition: .7s;
+                    //     opacity: 0.85;
+                    // }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 800px){
+    .abouttxts{
+        display: grid;
+        grid-template-columns: 0% 90% !important;
+        .aboutimg{
+            img{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.content{
+    .contact{
+        display: grid;
+        grid-template-columns: 35% 55%;
+        margin: 10px 5%;
+        .info{
+            display: flex;
+            flex-direction: column;
+            a{
+                i{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    cursor: pointer;
+                    font-size: 25px;
+                    color: #fff;
+                }
+                i:hover{
+                    color: springgreen;
+                    transition: all 0.3s ease-in;
+                }
+            }
+        }
+        .contactform{
+            .form{
+                display: flex;
+                flex-direction: column;
+                input{
+                    margin-top: 10px;
+                    padding: 8px;
+                    outline: none;
+                    border: none;
+                    border-radius: 2px;
+                }
+                textarea{
+                    margin-top: 10px;
+                    padding: 10px;
+                    outline: none;
+                    border: none;
+                    border-radius: 2px;
+                }
+                .contactbutton{
+                    padding: 10px 20px;
+                    width: 100px;
+                    cursor: pointer;
+                    margin-left: 85%;
+                    background-color: #010101;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 800px){
+    .contact{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+}

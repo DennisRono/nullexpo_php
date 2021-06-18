@@ -1,0 +1,104 @@
+.content .writeform {
+  width: 90%;
+  margin: 10px 0%;
+  margin-left: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.content .writeform h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 4%;
+  margin-bottom: 15px;
+}
+
+.content .writeform .writetools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content .writeform .writetools .helpers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.content .writeform .writetools .helpers i {
+  cursor: pointer;
+  padding-right: 10px;
+  margin: 5px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.content .writeform .writetools #onit textarea {
+  width: 100%;
+  height: 55vh;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #e8e8e8;
+}
+
+.content .writeform button {
+  width: 150px;
+  padding: 10px 20px;
+  margin-left: 88.2%;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #010101;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content .writeaccount {
+  margin-left: 6%;
+  margin-top: -50px;
+}
+
+.content .writeaccount .writeregister {
+  width: 150px;
+  padding: 7px 20px;
+  outline: none;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.content .writeaccount .writelogin {
+  width: 150px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=write.css.map */

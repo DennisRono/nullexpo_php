@@ -1,0 +1,79 @@
+.content .contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 55%;
+      grid-template-columns: 35% 55%;
+  margin: 10px 5%;
+}
+
+.content .contact .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .contact .info a i {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+}
+
+.content .contact .info a i:hover {
+  color: springgreen;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.content .contact .contactform .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .contact .contactform .form input {
+  margin-top: 10px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+
+.content .contact .contactform .form textarea {
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+
+.content .contact .contactform .form .contactbutton {
+  padding: 10px 20px;
+  width: 100px;
+  cursor: pointer;
+  margin-left: 85%;
+  background-color: #010101;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

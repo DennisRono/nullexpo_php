@@ -1,0 +1,21 @@
+.abbrand{
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/programming.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .5;
+    h1{
+        padding-top: 80px;
+    }
+    p{
+        a{
+            color: #fff;
+        }
+        i{
+            font-size: 12px;
+        }
+    }
+}

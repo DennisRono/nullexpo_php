@@ -1,0 +1,108 @@
+.abbrand {
+  height: 200px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/programming.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .5;
+}
+
+.abbrand h1 {
+  padding-top: 80px;
+}
+
+.abbrand p a {
+  color: #fff;
+}
+
+.abbrand p i {
+  font-size: 12px;
+}
+
+.services {
+  margin: 10px 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services .serviceone {
+  width: 350px;
+  overflow: hidden;
+  background-color: #d5d5d5;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin: 20px;
+}
+
+.services .serviceone img {
+  width: 100%;
+  cursor: pointer;
+  vertical-align: middle;
+  border-style: none;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.services .serviceone img:hover {
+  opacity: 0.85;
+}
+
+.services .serviceone .servicetexts {
+  padding: 10px;
+}
+
+.services .serviceone .servicetexts h2 {
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 5px;
+}
+
+.services .serviceone .servicetexts p {
+  padding: 5px 0px;
+}
+
+.services .serviceone .servicetexts button {
+  outline: none;
+  border: none;
+  background-color: #010101;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.services .serviceone .servicetexts button:hover {
+  background-color: #fff;
+  color: #010101;
+}
+
+.whyus {
+  height: 200px;
+  color: #3f3f3f;
+  background-color: #dfdfdf;
+  opacity: .95;
+}
+
+.whyus h1 {
+  padding-top: 40px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.whyus p {
+  color: #3f3f3f;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+/*# sourceMappingURL=services.css.map */

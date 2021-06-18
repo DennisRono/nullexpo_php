@@ -1,0 +1,83 @@
+.content{
+    .writeform{
+        width: 90%;
+        margin: 10px 0%;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end !important;
+        h2{
+            color: #fff;
+            font-size: 25px;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 4%;
+            margin-bottom: 15px;
+        }
+        .writetools{
+            display: flex;
+            flex-direction: row;
+            .helpers{
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+                i{
+                    cursor: pointer;
+                    padding-right: 10px;
+                    margin: 5px;
+                    color: #fff;
+                    font-size: 25px;
+                }
+            }
+            #onit{
+                textarea{
+                    width: 100%;
+                    height: 55vh;
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px;
+                    background-color: rgb(232, 232, 232);
+                }
+            }
+            
+        }
+        
+        button{
+            width: 150px;
+            padding: 10px 20px;
+            margin-left: 88.2%;
+            margin-top: 15px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            background-color: #010101;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    .writeaccount{
+        margin-left: 6%;
+        margin-top: -50px;
+        .writeregister{
+            width: 150px;
+            padding: 7px 20px;
+            outline: none;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            background-color: transparent;
+            cursor: pointer;
+            color: #fff;
+        }
+        .writelogin{
+            width: 150px;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            background-color: blueviolet;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

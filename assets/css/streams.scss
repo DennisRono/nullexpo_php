@@ -1,0 +1,156 @@
+.streams{
+    width: 100%;
+    .streamstop{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        width: 90%;
+        margin: 10px 5%;
+        .watch{
+            height: auto;
+            width: 100%;
+            background-color: transparent;
+            margin-right: 20px;
+            .watchtext{
+                position: relative;
+                .nullexpobrand{
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    img{
+                        padding: 5px;
+                    }
+                }
+                h2{
+                    color: #fff;
+                    padding-left: 10px;
+                }
+                span{
+                    color: #fff;
+                    padding-left: 10px;
+                }
+                video{
+                    width: 100%;
+                }
+            }
+            
+        }
+        .belowwatch{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            .nextad{
+                background-color: rgb(189, 189, 189);
+                border-top-left-radius: 9px;
+                border-top-right-radius: 9px;
+                overflow: hidden;
+                width: 30%;
+                margin-right: 10px;
+                margin-left: 10px;
+                img{
+                    width: 100%;
+                    border-top-left-radius: 9px;
+                    border-top-right-radius: 9px;
+                    height: 150px;
+                }
+                .nextadtexts{
+                    padding: 10px;
+                }
+            }
+        }
+        .next{
+            margin-left: 20px;
+            .nextad{
+                margin-left: 20px;
+                background-color: rgb(189, 189, 189);
+                border-top-left-radius: 9px;
+                border-top-right-radius: 9px;
+                overflow: hidden;
+                margin-top: 20px;
+                img{
+                    width: 100%;
+                    border-top-left-radius: 9px;
+                    border-top-right-radius: 9px;
+                }
+                .nextadtexts{
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .streamarticles{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        margin-top: 3.5rem;
+        .streamfeed{
+            min-width: 200px;
+            max-width: 45%;
+            max-height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            flex-grow: 0;
+            background-color: rgb(160, 160, 160);
+            filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.24));
+            margin: 15px;
+            img{
+                width: 100%;
+                max-height: 200px;
+            }
+            .streamfeedtexts{
+                padding: 20px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    margin-right: 5px;
+                    margin-bottom: -15px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 1200px){
+    .streamstop{
+        display: flex !important;
+        flex-direction: column;
+        .watchcolumn{
+            width: 100%;
+            margin: 10px 4%;
+            .watch{
+                width: 100%;
+            }
+        }
+    }
+    .streamarticles{
+        .streamfeed{
+            width: 60%;
+        }
+    }
+}
+@media(max-width: 700px){
+    .streamstop{
+        .watchcolumn{
+            margin-left: 0px;
+            .watch{
+                .watchtext{
+                    .nullexpobrand{
+                        img{
+                            height: 30px !important;
+                            width: 30px !important;
+                        }
+                    }
+                }
+            }
+            .belowwatch{
+                .nextad{
+                    width: 100% !important;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

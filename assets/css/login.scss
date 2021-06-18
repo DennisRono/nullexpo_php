@@ -1,0 +1,143 @@
+.logincontainer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(223, 223, 223);
+}
+.loginbox{
+    max-width: 50%;
+    margin: 100px auto;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    .imgbox{
+        width: 50%;
+        background-color: #eff2f7;
+        img{
+            position: center;
+            margin-left: 25px;
+            margin-top: 100px;
+        }
+    }
+    .loginform{
+        width: 50%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(245, 245, 245);
+        h2{
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.2;
+            color: #2C2C2C;
+        }
+        p{
+            margin-bottom: 1rem;
+            line-height: 1.5rem;
+            font-family: 'Montserrat', Helvetica, Arial, serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.45;
+            color: #626262;
+            text-align: left;
+        }
+        form{
+            width: 100%;
+            label{
+                padding: 0.25rem 0;
+                font-size: 0.7rem;
+                transition: all 0.25s ease-in-out;
+                opacity: 1;
+                color: rgba(34, 41, 47, 0.4) !important;
+            }
+            input{
+                padding: 8px 5px;
+                margin-bottom: 1.5rem;
+                outline: none;
+                width: 100%;
+                border: 1px solid #D9D9D9;
+                color: #5F5F5F;
+                word-wrap: break-word;
+                text-align: left;
+                border-radius: 5px;
+            }
+            .vs-checkbox{
+                cursor: pointer;
+                position: relative;
+                width: 20px;
+                height: 20px;
+                border-width: 2px;
+                border-style: solid;
+                border-color: #B8C2CC;
+                border-radius: 2px;
+                -webkit-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+                overflow: hidden;
+                margin-right: 0.5rem;
+            }
+            .buttonone{
+                background-color: #7367F0 !important;
+                color: #FFFFFF;
+                outline: none;
+                border: none;
+                width: 100%;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+                cursor: pointer;
+            }
+            .acctext{
+                margin-top: 20px;
+            }
+            .buttontwo{
+                background-color: transparent !important;
+                color: #7367F0;
+                outline: none;
+                border: 1px solid #7367F0;
+                width: 100%;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 10px 0px;
+                cursor: pointer;
+            }
+        }
+        .buttontwo{
+            background-color: transparent !important;
+            color: #7367F0;
+            outline: none;
+            border: 1px solid #7367F0;
+            width: 100%;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0px;
+            cursor: pointer;
+        }
+    }
+}
+@media(max-width: 1200px ) {
+    .imgbox{
+        display: none;
+    }
+    .loginform{
+        width: 100% !important;
+    }
+}
+@media(max-width: 800px ) {
+    body{
+        height: auto;
+        background-color: rgb(223, 223, 223);
+    }
+    .loginbox{
+        margin-top: 60px;
+        max-width: 70% !important;
+        overflow: hidden;
+    }
+}
+@media(max-width: 500px ) {
+    .loginbox{
+        margin-top: 50px;
+        overflow: hidden;
+        max-width: 85% !important;
+    }
+}

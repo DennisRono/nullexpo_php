@@ -1,0 +1,152 @@
+.feed {
+  margin: 10px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.feed .feedmain {
+  width: 70%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feed .feedmain .feedone {
+  min-width: 300px;
+  max-width: 45%;
+  max-height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  background-color: #a0a0a0;
+  -webkit-filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.24));
+          filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.24));
+}
+
+.feed .feedmain .feedone img {
+  width: 100%;
+}
+
+.feed .feedmain .feedone .feedtexts {
+  padding: 20px;
+}
+
+.feed .feedmain .feedone .feedtexts img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-bottom: -15px;
+}
+
+.feed .feedsidebar {
+  width: 20%;
+}
+
+.feed .feedsidebar .sidebarone .sidebarheader {
+  border: 1px solid #010101;
+  border-left: 5px solid crimson !important;
+  padding: 10px 5px;
+  color: crimson;
+}
+
+.feed .feedsidebar .sidebarone ul {
+  padding-left: 0px;
+}
+
+.feed .feedsidebar .sidebarone ul li {
+  padding: 5px 0px;
+  border-bottom: 1px solid #b3b3b3;
+  padding-left: 5px;
+}
+
+.feed .feedsidebar .sidebarone ul li a {
+  color: #010101;
+  text-transform: capitalize;
+}
+
+.feed .feedsidebar .sidebarone ul li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.feed .feedsidebar .sidebarone ul li:hover a {
+  color: crimson;
+}
+
+.feed .feedsidebar .sidebartwo .sidebarheader {
+  border: 1px solid #010101;
+  border-left: 5px solid #0084ff !important;
+  padding: 10px 5px;
+  color: #0084ff;
+}
+
+.feed .feedsidebar .sidebartwo ul {
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feed .feedsidebar .sidebartwo ul li {
+  border: 1px solid #010101;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.feed .feedsidebar .sidebartwo ul li a {
+  color: #010101;
+}
+
+.feed .feedsidebar .sidebartwo ul li:hover {
+  border: 1px solid #0084ff;
+}
+
+.feed .feedsidebar .sidebartwo ul li:hover a {
+  color: #0084ff;
+}
+
+.feed .feedsidebar .ad {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.feed .feedsidebar .ad img {
+  width: 100%;
+  height: auto;
+}
+
+.feed .feedsidebar h4 {
+  font-size: 10px;
+}
+
+.feed .feedsidebar p {
+  font-size: 13px;
+}
+/*# sourceMappingURL=feed.css.map */
