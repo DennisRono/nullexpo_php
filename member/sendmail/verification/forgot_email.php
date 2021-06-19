@@ -8,8 +8,8 @@ require_once(dirname(__DIR__) . '/vendor/autoload.php');
 $_POST['email'] = $Email;
 $mail = new Email('smtp.gmail.com', 587);
 $mail->setProtocol(Email::TLS)
-    ->setLogin('finnneron1@gmail.com', '@neron27finn')
-    ->setFrom('finnneron1@gmail.com')
+    ->setLogin('Email address here', 'passwordHere')
+    ->setFrom('Email Address here')
     ->setSubject('RESET YOUR PASSWORD')
     ->setTextMessage('Reset Code')
     ->setHtmlMessage('Use this one time reset code to reset your password! <br> <center><strong>'.$code.'</strong></center>')
